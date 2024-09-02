@@ -30,7 +30,6 @@ Sentry.init({
   tracesSampleRate: 1.0, // Capture 100% of the transactions, reduce in production!,
 });
 
-
 app.use("/users", usersRouter);
 app.use("/amenities", amenitiesRouter);
 app.use("/bookings", bookingsRouter);
