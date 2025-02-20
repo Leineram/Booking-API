@@ -61,7 +61,7 @@ model Property {
   title         String
   description   String
   location      String
-  pricePerNight Decimal   
+  pricePerNight Decimal   @db.Decimal(10, 2)
   bedroomCount  Int
   bathRoomCount Int
   maxGuestCount Int
