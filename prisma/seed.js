@@ -1,9 +1,9 @@
-import amenitiesData from "../src/data/amenities.json" assert { type: 'json' };
-import bookingsData from "../src/data/bookings.json" assert { type: 'json' };
-import hostsData from "../src/data/hosts.json" assert { type: 'json' };
-import propertiesData from "../src/data/properties.json" assert { type: 'json' };
-import reviewsData from "../src/data/reviews.json" assert { type: 'json' };
-import usersData from "../src/data/users.json" assert { type: 'json' };
+import amenitiesData from "../src/data/amenities.json" with { type: 'json' };
+import bookingsData from "../src/data/bookings.json" with { type: 'json' };
+import hostsData from "../src/data/hosts.json" with { type: 'json' };
+import propertiesData from "../src/data/properties.json" with { type: 'json' };
+import reviewsData from "../src/data/reviews.json" with { type: 'json' };
+import usersData from "../src/data/users.json" with { type: 'json' };
 import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
